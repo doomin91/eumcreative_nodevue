@@ -1,0 +1,11 @@
+[vuejs 설치]
+
+sudo npm install -g @vue/cli
+
+vue create Client
+
+cd Client 
+
+npm install vue-router --save
+
+npm install vue bootstrap bootstrap-vue --save

@@ -1,0 +1,42 @@
+{
+  "name": "nodemodules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn serve",
+    "server": "cd Server && npm run server_ts",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://gon@222.239.250.47:/opt/git/NodeModules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@vuelidate/core": "^2.0.0-alpha.21",
+    "@vuelidate/validators": "^2.0.0-alpha.18",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "codemirror": "^5.62.2",
+    "concurrently": "^6.2.0",
+    "core-js": "^3.15.2",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.7",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^3.0.0",
+    "tsc-watch": "^4.4.0",
+    "vue-sidebar-menu": "^4.8.1",
+    "vue-template-compiler": "2.6.12",
+    "vuelidate": "^0.7.6"
+  },
+  "description": ""
+}

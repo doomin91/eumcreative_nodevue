@@ -1,0 +1,160 @@
+
+/* main dashboard table */
+.DashboardTable {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #27486D;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.DashboardTable th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    border-bottom: 1px solid #27486D;
+}
+.DashboardTable td {
+    box-sizing: border-box;
+    padding: .75rem;
+    text-align:center;
+    border-bottom: 1px solid #27486D;
+
+}
+
+.DashboardTable_01 {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #27486D;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.DashboardTable_01 .el-table {
+    background-color:transparent;
+}
+
+.DashboardTable_01 .el-table th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    border-bottom: 1px solid #27486D;
+    background-color:#2a3042;
+}
+
+.customTable {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #27486D;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.customTable .el-table {
+    background-color:transparent;
+}
+
+.customTable01 {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-color: #27486D;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+
+.customTable01 th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    border-bottom: 1px solid #27486D;
+}
+.customTable01 td {
+    box-sizing: border-box;
+    padding: .75rem;
+    text-align:center;
+    border-bottom: 1px solid #27486D;
+
+}
+
+
+/* apply table */
+.ApplyTable01 {
+    position: relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;    
+}
+.ApplyTable01 th {
+    background-color:#2a3042;
+    padding:10px 0;
+    border:1px solid #27486D;
+    color: #a6b0cf;
+}
+.ApplyTable01 tr {
+    border-bottom:1px solid #27486D;
+}
+
+.ApplyTable01 td {
+    box-sizing: border-box;
+    padding:10px;
+    text-align:center;
+}
+
+.ApplyTable02 {
+    position: relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;    
+}
+.ApplyTable02 th {
+    background-color:#2a3042;
+    padding:10px 0;
+    border-top:1px solid #27486D;
+    border-bottom:1px solid #27486D;
+    color:#a6b0cf;
+}
+.ApplyTable02 tr {
+    border-bottom:1px solid #27486D;
+}
+
+.ApplyTable02 td {
+    box-sizing: border-box;
+    padding:10px;
+    text-align:center;
+    border-top:1px solid #27486D;
+}
+
+.confirmTable {
+    position:relative;
+    width:100%;
+    border-collapse : collapse;
+    border-spacing : 0;
+    vertical-align: middle!important;
+    font-size:13px;
+}
+.confirmTable tr {
+    border-bottom: 1px solid #27486D;
+}
+.confirmTable th {
+    color:#a6b0cf;
+    font-weight:600;
+    padding: .75rem;
+    text-align:center;
+}
+.confirmTable td {
+    box-sizing: border-box;
+    padding: .75rem;
+
+}
+
+
+
+
