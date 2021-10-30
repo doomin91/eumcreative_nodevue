@@ -144,12 +144,13 @@
     border-bottom: 1px solid #27486D;
 }
 .confirmTable th {
-    color:#a6b0cf;
+    color:#000;
     font-weight:600;
     padding: .75rem;
     text-align:center;
 }
 .confirmTable td {
+    color:#000;
     box-sizing: border-box;
     padding: .75rem;
 

@@ -80,7 +80,7 @@ export default {
           return false;
         }
 
-        const data = {mMemID : this.mMemID, mMemPwd : this.mMemPwd}
+        const data = {username : this.mMemID, password : this.mMemPwd}
         this.signin(data).then(res=>{
           console.log(res);
           if(res.code != 200){
@@ -95,8 +95,8 @@ export default {
       },
       ...mapActions(['signin']),
       goMain(){
-        console.log(VueCookies.get("USER_ID"));
-        console.log(VueCookies.get("USER_SEQ"));
+        // console.log(VueCookies.get("USER_ID"));
+        // console.log(VueCookies.get("USER_SEQ"));
           if(this.mMemID == VueCookies.get("USER_ID")){
             // route로 처리하는 경우 레이아웃을 다시 렌더링하지 않고 ( 효율성면에서 )
             // 기존에 사용하던 레이아웃을 그대로 사용하기 때문에, 지정한 레이아웃을 사용 할 수 없는 이슈가 발생함.

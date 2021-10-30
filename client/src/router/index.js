@@ -10,8 +10,9 @@ import * as applyApi from "@/api/apply"; // eslint-disable-line no-unused-vars
 import Login from '../views/login/Login';
 
 
-import ExamList from '../views/exam/examList'
-import ExamCheckList from '../views/exam/examCheckList'
+import ExamList from '../views/exam/examList';
+import ExamView from '../views/exam/examView';
+import ExamCheckList from '../views/exam/examCheckList';
 
 /* 정책 관리 */
 import PolicyStatus from '../views/policyManager/policyStatus';
@@ -95,6 +96,12 @@ const router = new VueRouter({
             name:"ExamList", //해당 경로의 이름 
             component:ExamList, //이동할 컴포넌트
             meta: { authRequired: true, active: "/examList"}
+        },
+        {
+            path:"/ExamView", //경로
+            name:"ExamView", //해당 경로의 이름 
+            component:ExamView, //이동할 컴포넌트
+            meta: { authRequired: true, active: "/examView"}
         },
         {
             path:"/ExamCheckList", //경로

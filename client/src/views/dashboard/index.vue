@@ -57,7 +57,6 @@
             :visible.sync="viewDialogFlag"
             width="20%"
             custom-class="ConfirmDialog">
-            <el-row>
             </el-dialog>
         <!-- content end -->
     </div>
